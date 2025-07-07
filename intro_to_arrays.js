@@ -194,21 +194,16 @@ for (const checkNum of nums) {
     if (checkNum%3 === 0) {
         fizz.push(checkNum);
     }
-}
 
-for (const checkNum of nums) {
     if (checkNum%5 === 0) {
         buzz.push(checkNum);
-    }
-}
+    }    
 
-for (const checkNum of nums) {
     if (checkNum%3 === 0 && checkNum%5 === 0) {
         fizzbuzz.push(checkNum);
     }
+
 }
-
-
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
